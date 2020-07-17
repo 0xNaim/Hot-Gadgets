@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
+}
+p {
+    color: #707070;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.navbar a img {
+    width: 120px;
+}
+.menubar ul li {
+    padding-left: 5px;
+}
+.menubar ul li a {
+    color: #707070 !important;
+}
+.menubar ul li a:hover {
+    color: black !important;
+}
+.navbar button {
+    outline: none;
+}
+.carouselMain a {
+    display: inline-block;
+    color: #efeded;
+    background-color: #0f0e0e;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+    transition: .3s;
+
+}
+.carouselMain a:hover {
+    background: #FFA82E;
+    color: #efeded;
+}
+.carousel-indicators li {
+    background-color: #bebbbb;
+    height: 5px;
+}
+.carousel-indicators .active {
+    background-color: #FFC91C;
+    width: 30px;
+}
+.sliderInnerWrapper {
+    padding-bottom: 50px;
+}
+.productsItems {
+    margin-top: 60px;
+}
+.productsItems .card {
+    border: none;
+    box-shadow: 1px 5px 30px #ddd;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.productsItems .card a {
+    color: #efeded;
+    background: #0f0e0e;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: .3s;
+    margin-top: 10px;
+}
+.productsItems .card a:hover {
+    background: #FFA82E;
+}
+.productsItems .produstsSecTitle a {
+    color: #FFB727;
+    text-decoration: none;
+}
+#categories {
+    margin-top: 30px;
+}
+#categories .categoriesContentWrapper .categoriesSecTitle h2 {
+    position: relative;
+    padding-bottom: 20px;
+}
+#categories .categoriesContentWrapper .categoriesSecTitle h2::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 5px;
+    background: #FFA82E;
+    left: 46%;
+    bottom: 0;
+}
+.categoriesContentWrapper {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+#categories .categoriesContentWrapper .categories h3 {
+    padding-top: 10px;
+}
+#categories .categoriesContentWrapper .lastCategories h3 {
+    margin-top: -25px;
+}
+#categories .categoriesContentWrapper .lastCategories {
+    margin-top: 30px;
+}
+#categories .categoriesContentWrapper .catagoriesImgRight img {
+    width: 100%;
+}
+#categories .categoriesContentWrapper .categories .categoriesImg {
+    width: 250px;
+    height: 230px;
+    box-shadow: 0px -2px 30px #ddd;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+#footer {
+    padding: 30px 0;
+}
+#footer span {
+    color: #707070;
+    font-size: 14px;
+}
